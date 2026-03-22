@@ -1,0 +1,7 @@
+name: Basic Workflow
+on: workflow_dispatch
+jobs:
+  basic-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Job is executing as part of Basic workflow"   
